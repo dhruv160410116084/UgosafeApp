@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.feedbackActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8sp"
+        android:padding="8sp"
+        android:textSize="25sp"
+        android:text="We hop that you have enjoyed our service and we would like to see you again!"/>
+
+
+    <RatingBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stepSize="1"
+        android:padding="8sp"
+       android:layout_marginTop="30sp"
+        android:numStars="5"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="10sp"
+        android:background="#E7E7E7">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8sp"
+            android:hint="Write your feedback here"
+            android:id="@+id/feedback_edit_text"
+            android:layout_marginTop="20sp"
+            android:layout_marginBottom="60sp"
+            android:textSize="18sp"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send"
+        android:textAllCaps="false"
+        android:layout_margin="8sp"
+        android:padding="4sp"
+        android:id="@+id/feedback"
+        android:layout_gravity="center"/>
+
+
+</LinearLayout>

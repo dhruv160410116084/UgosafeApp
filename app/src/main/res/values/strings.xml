@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">U Go Safe</string>
+    <string name="title_activity_show_centers">Map</string>
+    <string name="Rs">\u20B9</string>
+    <string name="title_activity_track_users">Map</string>
+    <string name="title_activity_select_location_map">Map</string>
+</resources>

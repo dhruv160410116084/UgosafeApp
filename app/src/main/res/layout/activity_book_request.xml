@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#79b4aeae"
+    android:id="@+id/main_layout"
+    tools:context=".Activities.BookRequestActivity">
+    <ScrollView android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Date &amp; Location "
+            android:layout_marginTop="12sp"
+            android:layout_marginBottom="8sp"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:gravity="center"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="100"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+                android:layout_marginRight="13dp"
+                android:gravity="center_vertical"
+                android:background="#ffffff">
+                <ImageView
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_marginHorizontal="8dp"
+                    android:layout_marginVertical="12sp"
+                    android:id="@+id/start_date_button"
+                    android:src="@drawable/ic_date_range_black_24dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Start date"
+                    android:textSize="20sp"
+                    android:id="@+id/start_date_textview"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+                android:gravity="center_vertical"
+                android:background="#ffffff">
+                <ImageView
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_marginHorizontal="8dp"
+                    android:layout_marginVertical="12sp"
+                    android:id="@+id/end_date_button"
+                    android:src="@drawable/ic_date_range_black_24dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="End date"
+                    android:textSize="20sp"
+                    android:id="@+id/end_date_textview"/>
+            </LinearLayout>
+        </LinearLayout>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Car"
+            android:background="@drawable/accent_curve"
+            android:textColor="#ffffff"
+            android:layout_gravity="center"
+            android:layout_marginVertical="8dp"
+            android:id="@+id/select_car_button">
+
+        </Button>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="2dp"
+            android:layout_weight="100">
+<!--            <Button-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_weight="30"-->
+<!--                android:background="@drawable/accent_curve"-->
+<!--                android:text="Select Date"-->
+<!--                android:textColor="#ffffff"-->
+<!--                android:id="@+id/start_date_button"-->
+<!--                android:textAllCaps="false"/>-->
+<!--            <TextView-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:text="Start Date"-->
+<!--                android:textSize="16sp"-->
+<!--                android:gravity="center"-->
+<!--                android:id="@+id/start_date_textview"-->
+<!--                android:layout_weight="70"/>-->
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:layout_weight="100">
+<!--            <Button-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_weight="30"-->
+<!--                android:id="@+id/end_date_button"-->
+<!--                android:background="@drawable/accent_curve"-->
+<!--                android:text="Select Date"-->
+<!--                android:textColor="#ffffff"-->
+<!--                android:textAllCaps="false"/>-->
+<!--            <TextView-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:text="End Date"-->
+<!--                android:textSize="16sp"-->
+<!--                android:gravity="center"-->
+<!--                android:id="@+id/end_date_textview"-->
+<!--                android:layout_weight="70"/>-->
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:layout_weight="100">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="70"
+                android:background="@drawable/accent_curve"
+                android:id="@+id/starting_position_button"
+                android:drawableLeft="@drawable/ic_location_on_black_24dp"
+                android:drawablePadding="-25dp"
+                android:text="start"
+                android:textColor="#ffffff"
+                android:textAllCaps="false"/>
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_marginLeft="12sp"
+                android:textSize="16sp"
+                android:background="#ffffff"
+                android:id="@+id/starting_position_spinner"
+                android:layout_weight="30"/>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:orientation="horizontal"
+            android:layout_weight="100">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="30"
+                android:background="@drawable/accent_curve"
+                android:id="@+id/ending_position_button"
+                android:text="end"
+                android:drawablePadding="-25dp"
+                android:textColor="#ffffff"
+                android:drawableStart="@drawable/ic_location_on_black_24dp"
+
+                android:textAllCaps="false"/>
+
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:background="#ffffff"
+                android:layout_marginLeft="16sp"
+                android:id="@+id/ending_position_spinner"
+                android:layout_weight="70"/>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="#ffffff"
+            android:weightSum="100"
+            android:padding="5dp">
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:id="@+id/radioGroup">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Home Delivery"
+                    android:layout_weight="50"
+                    android:id="@+id/radio_homeDelivery"
+                    android:textSize="16sp"
+                    />
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Pickup"
+                    android:layout_weight="50"
+                    android:id="@+id/radio_pickup"
+                    android:textSize="16sp"
+                    android:layout_marginLeft="25sp"/>
+            </RadioGroup>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:gravity="center"
+            android:background="#ffffff"
+            android:weightSum="100"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Driver :"
+                android:textColor="@color/colorAccent"
+                android:textSize="20sp"
+                android:layout_weight="70"
+                />
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:id="@+id/radioGroup_driver"
+                android:layout_weight="30">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radio_driver_yes"
+                    android:text="Yes"
+                    android:textSize="16sp"
+                    />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radio_driver_no"
+                    android:text="No"
+                    android:layout_marginLeft="20sp"
+                    android:textSize="16sp"
+                   />
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Accessories "
+            android:layout_marginTop="8dp"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:gravity="center"/>
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:id="@+id/as1_checkbox"
+            android:text="Microfiber cloth"
+            android:textColor="@color/colorPrimary"
+            android:textSize="16sp"/>
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:id="@+id/as2_checkbox"
+            android:textColor="@color/colorPrimary"
+            android:text="Car sunshades"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:id="@+id/as3_checkbox"
+            android:text="Mobile holders"
+            android:textColor="@color/colorPrimary"
+            android:textSize="16sp"/>
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:id="@+id/as4_checkbox"
+            android:text="Car arm rests"
+            android:textColor="@color/colorPrimary"
+            android:textSize="16sp"/>
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:id="@+id/as5_checkbox"
+            android:layout_marginBottom="200sp"
+            android:text="Car mobile chargers"
+            android:textColor="@color/colorPrimary"
+            android:textSize="16sp"/>
+
+        </LinearLayout>
+
+
+
+
+
+
+</ScrollView>
+
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_marginTop="2dp"
+android:layout_marginBottom="2dp"
+android:orientation="horizontal"
+android:layout_alignParentBottom="true"
+android:background="#ffffff"
+android:layout_weight="100">
+
+<TextView
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:text="Cost: "
+    android:textSize="16sp"
+    android:layout_marginRight="1dp"
+    android:gravity="center|end"
+    android:layout_weight="30"/>
+
+<TextView
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:text="@string/Rs"
+    android:textSize="16sp"
+    android:id="@+id/cost_textview"
+    android:layout_marginLeft="1dp"
+    android:gravity="center|start"
+    android:layout_weight="30"/>
+
+<Button
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="30"
+    android:background="@drawable/primary_curve"
+    android:id="@+id/send_request_button"
+    android:text="Send Request"
+    android:textColor="#ffffff"
+    android:layout_margin="8dp"
+    android:textAllCaps="false"/>
+
+</LinearLayout>
+    </RelativeLayout>

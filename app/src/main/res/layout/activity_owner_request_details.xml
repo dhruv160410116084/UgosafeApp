@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    xmlns:android="http://schemas.android.com/apk/res/android" />
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#79B4AEAE"
+    tools:context=".Activities.OwnerRequestDetailsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="4dp"
+            android:weightSum="100">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="40"
+                android:gravity="start"
+                android:layout_marginRight="2dp"
+                android:layout_gravity="center_vertical"
+                android:text="Request ID"
+                android:textStyle="bold"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="60"
+                android:layout_gravity="center_vertical"
+                android:text="Request ID"
+                android:layout_marginLeft="2dp"
+                android:gravity="start"
+                android:id="@+id/request_id_textview"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="4dp"
+            android:weightSum="100">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="40"
+                android:gravity="start"
+                android:layout_marginRight="2dp"
+                android:layout_gravity="center_vertical"
+                android:text="Start Date"
+                android:textStyle="bold"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="60"
+                android:layout_gravity="center_vertical"
+                android:text="Start Date"
+                android:layout_marginLeft="2dp"
+                android:gravity="start"
+                android:id="@+id/start_date_textview"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="4dp"
+            android:weightSum="100">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="40"
+                android:gravity="start"
+                android:layout_marginRight="2dp"
+                android:layout_gravity="center_vertical"
+                android:text="End Date"
+                android:textStyle="bold"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="60"
+                android:layout_gravity="center_vertical"
+                android:text="End Date"
+                android:layout_marginLeft="2dp"
+                android:gravity="start"
+                android:id="@+id/end_date_textview"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="4dp"
+            android:weightSum="100">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="40"
+                android:gravity="start"
+                android:layout_marginRight="2dp"
+                android:layout_gravity="center_vertical"
+                android:text="Customer ID"
+                android:textStyle="bold"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="60"
+                android:layout_gravity="center_vertical"
+                android:text="Customer ID"
+                android:layout_marginLeft="2dp"
+                android:gravity="start"
+                android:id="@+id/customer_id_textview"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="4dp"
+            android:weightSum="100">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="40"
+                android:gravity="start"
+                android:layout_marginRight="2dp"
+                android:layout_gravity="center_vertical"
+                android:text="Cost"
+                android:textStyle="bold"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="60"
+                android:layout_gravity="center_vertical"
+                android:text="@string/Rs"
+                android:layout_marginLeft="2dp"
+                android:gravity="start"
+                android:id="@+id/cost_textview"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="4dp"
+            android:weightSum="100">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="40"
+                android:gravity="start"
+                android:layout_marginRight="2dp"
+                android:layout_gravity="center_vertical"
+                android:text="Request Status"
+                android:textStyle="bold"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="60"
+                android:layout_gravity="center_vertical"
+                android:text="Request Status"
+                android:layout_marginLeft="2dp"
+                android:gravity="start"
+                android:id="@+id/request_status_textview"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="4dp"
+            android:weightSum="100">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="40"
+                android:gravity="start"
+                android:layout_marginRight="2dp"
+                android:layout_gravity="center_vertical"
+                android:text="Journey Status"
+                android:textStyle="bold"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="60"
+                android:layout_gravity="center_vertical"
+                android:text="Journey Status"
+                android:layout_marginLeft="2dp"
+                android:gravity="start"
+                android:id="@+id/journey_status_textview"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="4dp"
+            android:weightSum="100">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="40"
+                android:gravity="start"
+                android:layout_marginRight="2dp"
+                android:layout_gravity="center_vertical"
+                android:text="Payment Status"
+                android:textStyle="bold"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="60"
+                android:layout_gravity="center_vertical"
+                android:text="Payment Status"
+                android:layout_marginLeft="2dp"
+                android:gravity="start"
+                android:id="@+id/payment_status_textview"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="4dp"
+            android:weightSum="100">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="40"
+                android:gravity="start"
+                android:layout_marginRight="2dp"
+                android:layout_gravity="center_vertical"
+                android:text="Delivery Type"
+                android:textStyle="bold"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="60"
+                android:layout_gravity="center_vertical"
+                android:text="Home Delivery/pick up"
+                android:layout_marginLeft="2dp"
+                android:gravity="start"
+                android:id="@+id/delivery_status"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="4dp"
+            android:weightSum="100">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="40"
+                android:gravity="start"
+                android:layout_marginRight="2dp"
+                android:layout_gravity="center_vertical"
+                android:text="Driver"
+                android:textStyle="bold"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="60"
+                android:layout_gravity="center_vertical"
+                android:text="Yes / No"
+                android:layout_marginLeft="2dp"
+                android:gravity="start"
+                android:id="@+id/driver_status"/>
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/accent_curve"
+            android:text="Accept"
+            android:id="@+id/accept_button"
+            android:textAllCaps="false"
+            android:padding="4dp"
+            android:layout_marginTop="36dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_gravity="center"
+            android:id="@+id/reject_button"
+            android:background="@drawable/accent_curve"
+            android:text="Reject"
+            android:textAllCaps="false"
+            android:padding="4dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
+</ScrollView>

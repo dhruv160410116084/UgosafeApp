@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8sp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activities.AboutUsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="8dp"
+            android:src="@mipmap/u_go_safe_round"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:text="U Go Safe"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:text=" Welcome to our about us page!!Ugosafe is here to help you 24*7 for ur transport requirement.We here believe in keeping our customers priority first.We Promise to take less time of yours and provide a reliable service to you. We ensure safety and security of our customers.Enjoy new way of transportation booking!!"/>
+
+    </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="16sp"
+            android:layout_marginBottom="12sp"
+            android:padding="8sp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:gravity="center_horizontal">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="33"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="60sp"
+                    android:layout_height="60sp"
+                    android:src="@drawable/ic_directions_car_black_24dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Booking"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="33"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="60sp"
+                    android:layout_height="60sp"
+                    android:src="@drawable/ic_account_balance_wallet_black_24dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Wallet"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="33"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="60sp"
+                    android:layout_height="60sp"
+                    android:src="@drawable/ic_headset_mic_black_24dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Assistant"/>
+            </LinearLayout>
+        </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="100"
+                android:gravity="center_horizontal">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="33"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:layout_width="60sp"
+                        android:layout_height="60sp"
+                        android:src="@drawable/ic_help_outline_black_24dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="FAQ"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="33"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:layout_width="60sp"
+                        android:layout_height="60sp"
+                        android:src="@drawable/ic_account_box_black_24dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Joining"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="33"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:layout_width="60sp"
+                        android:layout_height="60sp"
+                        android:src="@drawable/ic_indeterminate_check_box_black_24dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Discounts"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#57C5C4C4">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="What happens if i return the car late?"
+                    android:textSize="18sp"
+                    android:padding="4sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="4sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="a) Standard hourly fee will be applicable per hour of
+delay. Weekend or weekday delays will be charged
+accordingly.\n
+b) Free KMs will be given at 10 km per hour of delay.\n
+c) In addition to the standard hourly fee, every hour of
+delay would be charged at Rs. 300/hour,"
+                    android:textSize="15sp"
+                    android:padding="2sp"
+                    android:layout_margin="4sp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#57C5C4C4">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Is there a km limit to how much i can drive?"
+                    android:textSize="18sp"
+                    android:padding="4sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="4sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="With reference to the km package which you select you
+are eligible to drive accordingly.For example, if you opt
+for 10 km/hr package then 5 hours reservation would
+come with 50 km in driving at no additional charge,
+while a 3 day reservation would come with 720 km in
+driving at no additional charges. There is a per-km
+charge for each km beyond that point. Please see
+UGOsafe tariffs for more details."
+                    android:textSize="15sp"
+                    android:padding="2sp"
+                    android:layout_margin="4sp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#57C5C4C4">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Do i need to provide any ID proof before tacking the car?"
+                    android:textSize="18sp"
+                    android:padding="4sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="4sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="
+Yes, you will have to produce a government verified
+original ID proof to our driver,he can take a pic of It in
+case needed"
+                    android:textSize="15sp"
+                    android:padding="2sp"
+                    android:layout_margin="4sp"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="#57C5C4C4">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="What would be the fuel level in the vehicle which gets alloted to me?"
+                        android:textSize="18sp"
+                        android:padding="4sp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="4sp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="
+Fuel level in few vehicles may be as low as 5-10 %. Post
+completing the pick-up checklist procedure. Please do
+check the fuel percentage in the vehicle and refuel the
+vehicle if the current fuel level is not enough for your
+trip. Please refuel the vehicle as per your trip
+requirement."
+                        android:textSize="15sp"
+                        android:padding="2sp"
+                        android:layout_margin="4sp"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="#57C5C4C4">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Is there a speed limit?"
+                        android:textSize="18sp"
+                        android:padding="4sp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="4sp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Yes, 125 km/hr. You will be charged a overspeeding fine
+max upto INR 2,500 in case you speed above 125 km/
+hr. You shall be blacklisted if we find more than two
+overspeeding cases against you. You will be blacklist if
+you speed over 150 km/hr."
+                        android:textSize="15sp"
+                        android:padding="2sp"
+                        android:layout_margin="4sp"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="#57C5C4C4">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="What is damage fee and when does it apply?"
+                        android:textSize="18sp"
+                        android:padding="4sp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="4sp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Damage fee applies when the member Is involved in an
+incident (including but not limited to a collision or
+misuse of the vehicle). The Member will be obligated to
+pay the repair cost up to Rs.10,000 in case of
+accidental damage. Where the damage is shown to be
+consequential or otherwise unattributable to accident,
+the Member will be obligated to bear the full cost of the
+damage sustained by the vehicle along with
+miscellaneous expenses. The payment owed will be
+deducted from the security deposit paid by the
+customer. In the event the customer is found to violate
+UGosafe T &amp; C the maximum cap of the security deposit
+will not be applicable. For more details please visit the
+Fee Policy page on our website."
+                        android:textSize="15sp"
+                        android:padding="2sp"
+                        android:layout_margin="4sp"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+</LinearLayout>
+
+</ScrollView>
